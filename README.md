@@ -72,15 +72,6 @@ $data = array(
 $cart->update($rowId, $data);
 ```
 
-### $cart->removeItem()
-
-To remove an item from the cart, you'll again need the rowId. This rowId you simply pass to the `removeItem()` method and it will remove the item from the cart.
-
-```php
-$rowId = 'da39a3ee5e6b4b0d3255bfef95601890afd80709';
-
-$cart->removeItem($rowId);
-```
 
 ### $cart->getItems()
 
@@ -90,6 +81,16 @@ YYou just class the `getItems()` method to get all cart items
 $cart->getItems();
 ```
 
+
+### $cart->removeItem()
+
+To remove an item from the cart, you'll again need the rowId. This rowId you simply pass to the `removeItem()` method and it will remove the item from the cart.
+
+```php
+$rowId = 'da39a3ee5e6b4b0d3255bfef95601890afd80709';
+
+$cart->removeItem($rowId);
+```
 
 ### $cart->removeAllItems()
 
