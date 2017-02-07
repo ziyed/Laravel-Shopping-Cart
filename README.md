@@ -1,5 +1,6 @@
 # LaravelShoppingCart
-A Simple Session Based Database Driven Shopping Cart Library. 
+A Simple Session Based Database Driven Shopping Cart Library For Laravel.
+ 
 It's Really Simple & Easy To Manage Your Shopping Cart Item At Laravel
 
 ## Installation
