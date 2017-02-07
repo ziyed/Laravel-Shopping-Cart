@@ -69,7 +69,7 @@ $data = array(
 	'name' => 'child dress',
 	'options' => ['size'=> 'L', 'type' => 'Silk', 'Manufacturer' => 'Cat\'s Eye']	
 );  
-$cart->update(rowId, $data);
+$cart->update($rowId, $data);
 ```
 
 ### $cart->removeItem()
