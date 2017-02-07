@@ -25,6 +25,15 @@ You Need to Create an Object Of the Cart Class Then
 
 	$cart = new \App\Http\Libraries\Cart();
 	
+### $cart->setTable()	
+
+If you want to set your rename table instead of default then just pass the name to `setTable()` method
+
+```php 
+$cart->setTable('my_custom_order_table');
+```
+	Note: The Table must have the columns that are exist in default table.
+	
 ### $cart->insert()
 
 Adding an item to the cart is really simple, you just use the `insert()` method, which accepts a variety of parameters.
