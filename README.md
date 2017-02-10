@@ -7,7 +7,7 @@ It's Really Simple & Easy To Manage Your Shopping Cart Item At Laravel
 
 Download The Class Library and put it to app/Http/Libraries folder
 
-Now Load the Cart Class To you base controller
+Now Load the Cart Class To your base controller
 	
 	use App\Http\Libraries\Cart;
 	
