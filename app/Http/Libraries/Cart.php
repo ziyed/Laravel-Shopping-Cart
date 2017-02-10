@@ -101,7 +101,7 @@ class Cart {
         }
 
         //Making a unique row id for a entry to make it unique
-        if (isset($data['options']) && count($data['options']) > 0) {
+        if (isset($data['options']) && count($data['options']) > 0  && !empty($data['options'])) {
             $rowid = md5($data['product_id'] . implode('', $data['options']));
         } else {
             $rowid = md5($data['product_id']);
@@ -203,7 +203,7 @@ class Cart {
             $data_update_array['price'] = $data['price'];
         }
         //Checking options and set to array if exist
-        if (isset($data['options']) && count($data['options']) > 0) {
+        if (isset($data['options']) && count($data['options']) > 0  && !empty($data['options'])) {
             $data_update_array['options'] = serialize($data['options']);
         } 
 
